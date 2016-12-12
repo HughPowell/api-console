@@ -1040,12 +1040,7 @@
                         $scope.definition = declaredSchema;
                       }
                     } else {
-                      if (aType.indexOf('|') !== -1) {
-                        $scope.isSchema = false;
-                        $scope.isType = true;
-                      } else {
-                        $scope.definition = aType;
-                      }
+                      $scope.definition = aType;
                     }
                   }
                 }
